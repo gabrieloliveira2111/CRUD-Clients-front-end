@@ -1,0 +1,20 @@
+.clients-container {
+    min-height: 100vh;
+    background-color: #7D61E7;
+}
+
+.input-search {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: #7D61E7;
+    font-weight: 600;
+    cursor: pointer;
+    &::placeholder {
+        color: #7D61E7;
+    }
+    &:focus::placeholder {
+        color: transparent;
+        transition: 0.3s;
+    } 
+}

@@ -1,0 +1,66 @@
+.login-container {
+    height: 55%;
+    min-height: 480px;
+    max-width: 960px;
+    width: 75%;
+    @media (min-width: 992px) { 
+        width: 100%;
+    }
+}
+.login-img {
+    width: 70px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    @media (max-width: 992px) {
+        display: none;
+        border: none;
+    }
+}
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.login-input {
+    border: none;
+    border-bottom: 2px solid #C4C4C4;
+    outline: none;
+    &:focus {
+        border-color: #7D61E7;
+    }
+    &:focus::placeholder {
+        color: transparent;
+    } 
+    &:hover::placeholder {
+        padding-left: 10px;
+        transition: 0.5s;
+    }
+    &:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 30px white inset;
+        box-shadow:  0 0 0 30px white inset;
+    }
+}
+.MuiSvgIcon-root {
+    color: white;
+}
+
+.content-logo{
+    margin: 16px 0 56px;
+}
+
+.btn-login {
+    background: #7D61E7;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 0;
+    border-radius: 8px;
+    transition: all 0.3s;
+    &:hover {
+        background: #5a36dd;
+    }
+}

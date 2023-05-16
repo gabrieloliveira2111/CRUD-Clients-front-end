@@ -1,0 +1,56 @@
+body {
+  background-image: url('../public/images/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.purple-color-text {
+  color: #7D61E7;
+  font-weight: 600;
+}
+.purple-color-img {
+  color: #7D61E7;
+}
+.purple-color-options {
+  color: #7D61E7;
+  font-weight: 600;
+  &:hover {
+    background-color: #7D61E7;
+    color: white;
+  }
+}
+/* ===== Scrollbar CSS ===== /
+    / Firefox */
+    * {
+      scrollbar-width: auto;
+      scrollbar-color: #858585 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+      width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+      background: #eee;
+  }
+
+  *::-webkit-scrollbar-thumb {
+      background-color: #858585;
+      border-radius   : 10px;
+      border          : 3px solid #ffffff;
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
